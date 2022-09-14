@@ -2,7 +2,7 @@
 function conectar(){
     $host="localhost";
     $user="root";
-    $pass="mysql02";
+    $pass="root";
 
     $bd="cruddb";
 
