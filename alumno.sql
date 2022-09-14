@@ -1,6 +1,11 @@
+
+drop database if exists `cruddb`;
+
 create database cruddb;
 
 use cruddb;
+
+drop table if exists `alumno`; 
 
 CREATE TABLE `alumno` (
   `cod_estudiante` int(11) NOT NULL,
@@ -14,4 +19,3 @@ INSERT INTO `alumno` (`cod_estudiante`, `dni`, `nombres`, `apellidos`) VALUES
 (103, 75854551, 'Saul', 'Segura'),
 (105, 75854553, 'Angel', 'Martinez');
 
-select * from alumno
